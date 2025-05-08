@@ -210,8 +210,9 @@ body {
 
 
 .pika {
-    padding-top: 10px;
-    display: flex;
+    padding-top: 1  0px;
+    display: grid;
+    grid-template-columns: auto auto;
     column-gap: 20px;
 }
 
@@ -227,7 +228,8 @@ body {
 
 .book {
     padding: 50px;
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto;
     padding-bottom: 90px;
 }
 
@@ -254,7 +256,7 @@ body {
 
 .code {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto ;
     column-gap: 50px;
 }
 
@@ -397,13 +399,25 @@ footer {
     {
         .icons {
             display: grid;
-            
+            grid-template-columns: auto 
            
         }
     }
 
 @media screen and (max-width:768px) {
+    .code {
+        display: grid;
+        grid-template-columns: auto auto ;
+        column-gap: 50px;
+    }
+    
 
+    .pika {
+        padding-top: 1  0px;
+        display: grid;
+        grid-template-columns: auto ;
+        column-gap: 20px;
+    }
     .section_parts {
         text-align: center;
         margin-top: 100px;
@@ -420,9 +434,16 @@ footer {
         padding: 15px 10px 0;
     }
     .icons {
-        display: grid;
+      
+        grid-template-columns: auto auto ;
+       
+    }
+    .instructor {
         grid-template-columns: auto auto ;
        
     }
     
+}
+.justify{
+    text-align: justify;
 }
