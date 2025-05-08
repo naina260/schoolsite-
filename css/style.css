@@ -1,23 +1,23 @@
-body{
+body {
     margin: 0px;
-padding: 0px;
-}
-@media only screen(max 600px);
-{
-    
+    padding: 0px;
 }
 
-.browse{
+
+.browse {
     text-align: center;
     font-size: 40px;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
 }
-#jeffrey{font-weight: 200;
+
+#jeffrey {
+    font-weight: 200;
     font-size: 20px;
     color: rgb(23, 132, 136);
 }
-.icons{
+
+.icons {
     display: grid;
     grid-template-columns: auto auto auto;
     text-align: center;
@@ -26,213 +26,233 @@ padding: 0px;
     margin: 60px;
     column-gap: 40px;
 }
-#arts{
+
+#arts {
     color: rgb(139, 7, 117);
 }
-#icon{
+
+#icon {
     background-color: rgb(235, 255, 213);
 }
-#icon1{
+
+#icon1 {
     background-color: rgb(235, 255, 213);
 }
-#icon2{
+
+#icon2 {
     background-color: rgb(221, 204, 253);
 }
 
-.instructor{
+.instructor {
     display: grid;
     grid-template-columns: auto auto auto auto;
     text-align: center;
-    padding: 50px;
-    margin: 60px;
-    column-gap: 40px;
+    padding: 20px;
+    margin:10 10 10 10;
+    column-gap: 20px;
     font-size: 18px;
     font-weight: 500px;
     font-family: "Poppins", sans-serif;
 
 }
 
-.pika{
+.pika {
     background-color: aqua;
     padding: 100;
 }
-.instructor{
+
+.instructor {
     background-color: rgb(41, 119, 192);
 }
-.imagedesign{
+
+.imagedesign {
     background-color: chocolate;
 }
 
 
-.container{
-    padding-left:15px;
-    padding-right:15px
+.container {
+    padding-left: 15px;
+    padding-right: 15px
 }
-.topBar
-{
-    padding: 15px;;
+
+.topBar {
+    padding: 15px;
+    ;
     display: flex;
     justify-content: space-between;
-    background-color:lightblue;
+    background-color: lightblue;
 }
-.flex
-{
+
+.flex {
     display: flex;
-    
+
 }
-.flex div{
-    margin-left:10px;
+
+.flex div {
+    margin-left: 10px;
 }
-.divider{
+
+.divider {
 
     width: 0px;
-    border:1px solid gray
+    border: 1px solid gray
 }
-.text-white{
-    color:white;
+
+.text-white {
+    color: white;
 }
-.navigation
-{
+
+.navigation {
     display: flex;
     justify-content: space-between;
     padding-right: 10px;
     padding: 10px;
     background-color: #2d2e2e;
 }
-.navigation a{
+
+.navigation a {
     text-decoration: none;
-    color:black;
+    color: black;
 }
 
-.banner{
+.banner {
     background-image: url("../images/images/SCHOOL.jpg");
     height: 60%;
     background-repeat: no-repeat;
     background-size: cover;
-    
-    background-blend-mode:rgb(34, 35, 97);
+
+    background-blend-mode: rgb(34, 35, 97);
 
 }
-.title{
+
+.title {
     color: #2d2e2e;
     padding-left: 100;
     font-family: "Merriweather";
     font-size: 44px;
-  font-weight: 700;
- line-height: 1.2em;
+    font-weight: 700;
+    line-height: 1.2em;
 }
-.flex1 :any-link{
+
+.flex1 :any-link {
     color: white;
 
-  
+
 }
-.img{
+
+.img {
     display: flex;
 }
-.container{
+
+.container {
     padding-left: 120px;
     padding-right: 120px;
 }
-.about{
-   
-}
+
+.about {}
+
 .registrationform {
     background-color: #aa8080;
     box-shadow: 0px 100px 100px 0px rgba(2, 25, 55, 0.08);
-    border-radius:50px;
-    padding:45px 40px 0  ;
-    padding-bottom: 300;
-  }
-  .row {
-    
-    
-    border: color :#2d2e2e 12px;
-   
-   
-   
-  }
-  .logo{
-    padding-left: 100;
-    text-align:center;
-  }
-  .p3{
-   
-    border-radius: 50%
+    border-radius: 10px;
+    padding: 45px 40px 0;
+    padding-bottom: 100;
+}
 
-    
-  }
-  .section_reg
-  {
+.row {
+
+
+    border: color:#2d2e2e 12px;
+
+
+
+}
+
+.logo {
+    padding-left: 100;
+    text-align: center;
+}
+
+.p3 {
+
+    border-radius: 50%
+}
+
+.section_reg {
 
     display: grid;
     grid-template-columns: 60% auto;
     column-gap: 20px;
-  }
-    .section_parts
-  {
+}
+
+.section_parts {
     text-align: center;
-    margin-top:100px;
+    margin-top: 100px;
     display: grid;
     grid-template-columns: auto auto;
     column-gap: 20px;
-  }
-  .course_registration
-  {
-    margin-top:-100px
-  }
-  .imagedesign
-  {
-    text-align: center  ;
+}
+
+.course_registration {
+    margin-top: -100px
+}
+
+.imagedesign {
+    text-align: center;
     align-items: baseline;
-  }
-.img{
+}
+
+.img {
     padding-left: 150;
     margin-top: -150;
 }
 
 
 
-.pika{
+.pika {
     padding-top: 10px;
     display: flex;
     column-gap: 20px;
 }
-.pika img{
+
+.pika img {
     border-radius: 20px;
 }
-.pika p{
+
+.pika p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
 }
 
 
-.book{
-    padding:50px;
+.book {
+    padding: 50px;
     display: flex;
     padding-bottom: 90px;
 }
-.book img{
-    border-radius:20px;
+
+.book img {
+    border-radius: 20px;
 }
 
-.txt{
-    padding-right:100px;
+.txt {
+    padding-right: 100px;
     padding-top: 50px;
 }
 
-.txt h2{
+.txt h2 {
     font-size: 60;
     color: rgb(21, 54, 92);
 }
 
-.txt h5{
-   font-size: 20;
-   color: rgb(17, 76, 116); 
-font-style: oblique;
-padding-inline: 20px;
+.txt h5 {
+    font-size: 20;
+    color: rgb(17, 76, 116);
+    font-style: oblique;
+    padding-inline: 20px;
 }
 
-.code{
+.code {
     display: grid;
     grid-template-columns: auto auto;
     column-gap: 50px;
@@ -240,71 +260,77 @@ padding-inline: 20px;
 
 
 
-.text{
+.text {
     color: rgb(21, 54, 92);
     font-size: 25;
-    
+
     font-family: "Bebas Neue";
     padding-bottom: 0px;
 
-   
+
 }
-.text1{
+
+.text1 {
     color: rgb(66, 66, 62);
-    
+
     font-size: 15;
     font-family: "Roboto";
-  padding-bottom: 60px;
+    padding-bottom: 60px;
 
 }
 
-.grayarea{
+.grayarea {
     text-align: center;
     background-color: rgb(243, 242, 242);
-  padding-bottom: 10px;
-    
+    padding-bottom: 10px;
+
 }
- #do{
+
+#do {
     color: rgb(80, 78, 76);
 }
 
-.jkl{
-    display:grid;
-    grid-template-columns: auto auto auto ;
+.jkl {
+    display: grid;
+    grid-template-columns: auto auto auto;
     text-align: center;
-    padding:0px ;
+    padding: 0px;
     background-color: white;
 
 }
 
-.bluearea{
-    
-margin: -60;
+.bluearea {
+
+    margin: -60;
     height: 400px;
     background-color: rgb(43, 54, 156);
-    
+
 }
-.bluetext{
-    
+
+.bluetext {
+
     color: rgb(250, 238, 238);
     font-size: 60;
     padding-left: 90px;
     font-family: "Bebas Neue";
-   
+
 }
-.bluetext1{
+
+.bluetext1 {
 
     color: white;
     padding-left: 90px;
     font-size: medium;
     font-family: "Roboto";
 }
-.pineapple{
+
+.pineapple {
     background-color: #004080;
     display: flex;
     column-gap: 150px;
 }
-.pine{
+
+.pine {
     padding-left: 50px;
     padding-top: 60px;
     color: aliceblue;
@@ -312,24 +338,29 @@ margin: -60;
     font-weight: bolder;
     font-size: 60px;
 }
-.apple{
+
+.apple {
     padding-top: 80px;
     padding-right: 200px;
     font-size: medium;
     color: aliceblue;
     font-family: serif;
 }
-.alpine{
+
+.alpine {
     display: grid;
     grid-template-rows: auto;
     row-gap: 10px;
 }
-.alpine img{
+
+.alpine img {
     border-radius: 50%;
 }
-.alpine div{
+
+.alpine div {
     color: aliceblue;
 }
+
 footer {
     background-color: #004080;
     color: white;
@@ -360,6 +391,38 @@ footer {
 .footer-links a:hover {
     text-decoration: underline;
 }
-.code{
-    padding bottom: 100;
+
+@media screen and (max-width:600px) 
+
+    {
+        .icons {
+            display: grid;
+            
+           
+        }
+    }
+
+@media screen and (max-width:768px) {
+
+    .section_parts {
+        text-align: center;
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: auto;
+        column-gap: 20px;
+    }
+    .registrationform {
+        
+    
+        background-color: #aa8080;
+        box-shadow: 0px 100px 100px 0px rgba(2, 25, 55, 0.08);
+      
+        padding: 15px 10px 0;
+    }
+    .icons {
+        display: grid;
+        grid-template-columns: auto auto ;
+       
+    }
+    
 }
